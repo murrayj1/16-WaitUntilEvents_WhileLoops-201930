@@ -2,7 +2,7 @@
 This module demonstrates how to INPUT from the CONSOLE:
   -- ints (integers)
   -- floats (floating point numbers)
-  -- strings.
+  -- strings. 
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,

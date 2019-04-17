@@ -3,8 +3,8 @@ This module demonstrates lets you practice INPUT from the CONSOLE.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Jacob Murray.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -31,9 +31,12 @@ def double_a_float():
          -6.28
     """
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # DOne: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    x = float(input("Insert floating point number here:"))
+    x = x*2
+    print(x)
 
 
 def print_an_integer_many_times():
@@ -62,9 +65,13 @@ def print_an_integer_many_times():
          10
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # Done: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    x = int(input("input positive integer here:"))
+    y = x*2
+    for _ in range(x):
+        print(y)
 
 
 def print_an_integer_many_times_on_one_row():
@@ -81,12 +88,18 @@ def print_an_integer_many_times_on_one_row():
          1010101010
     """
     # -------------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # Done: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
     #       and then print that (single) string.
     # -------------------------------------------------------------------------
+    x = int(input("input positive integer here:"))
+    y = str(x*2)
+    total = y
+    for _ in range(x):
+        total = total + y
+    print(total)
 
 
 def input_it_all():
@@ -121,9 +134,17 @@ def input_it_all():
          Peace & Love.
     """
     # -------------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # Done: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # -------------------------------------------------------------------------
+    a = float(input("Input floating point number:"))
+    b = int(input('Input integer here:'))
+    c = str(input('Insert string here:'))
+    a_2 = a**(1/2)
+    for _ in range(b):
+        print(a_2)
+    for _ in range(b):
+        print(c)
 
 
 # -----------------------------------------------------------------------------
